@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      username: motorspares
+      password: admin@motorspares
+      host: localhost
+      port: 27017
+      database: motor-spares
+      authentication-database: admin
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 352198120680-eih74623jdo8ui4selm9ftfqdt7jq7cu.apps.googleusercontent.com
+            clientSecret: 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
