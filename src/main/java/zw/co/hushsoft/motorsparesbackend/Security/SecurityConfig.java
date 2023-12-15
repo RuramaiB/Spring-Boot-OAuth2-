@@ -18,20 +18,6 @@ import java.util.List;
 @EnableWebSecurity
 public class SecurityConfig {
 
-//    @Bean
-//    public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws  Exception{
-//        httpSecurity
-//                .csrf()
-//                .disable()
-//                .authorizeHttpRequests()
-//                .anyRequest()
-//                .authenticated()
-//                .and()
-//                .oauth2Login()
-//
-//                ;
-//        return httpSecurity.build();
-//    }
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return   http
